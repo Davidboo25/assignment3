@@ -1,1 +1,71 @@
-/*styles for assignment 3*/
+body
+{
+    background: grey;   
+}
+.nav
+{
+    width: 100%;
+    text-align: center;
+    top:0;
+}
+.nav > ul
+{
+    list-style-type: none;
+    background-color: #caebf2;
+}
+.nav > ul li
+{
+    display: inline-block;
+    margin-right: 50px;
+}
+.mainform
+{
+    background:rgba(50,30,71,0.35);
+    padding:10px;
+    height: 300px;
+}
+.mainform input 
+{
+    width: 200px;
+    margin-bottom:10px;
+}
+.mainform select
+{
+    width: 200px;
+}
+.submitbutton
+{
+    background: #caebf2;
+    border-style: ridge;
+    border-radius: 5px;
+}
+.footerFinal
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background:#caebf2;
+}
+.leftfoot
+{
+    float: left;
+    text-align: left;
+    width: 33.3%; 
+}
+
+.rightfoot
+{
+    float: right; 
+    text-align: right;
+    width: 33.3%; 
+}
+
+.centerfoot
+{
+
+    float: right;
+    text-align: center;
+    width: 33.3%; 
+}
